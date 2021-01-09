@@ -82,6 +82,4 @@ class Game2048(Frame):
                     self.grid_cells[1][2].configure(
                         text="Lose!", bg=c.BACKGROUND_COLOR_CELL_EMPTY)
 
-
-
 gamegrid = Game2048()
